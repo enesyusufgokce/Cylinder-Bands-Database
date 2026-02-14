@@ -1,4 +1,4 @@
-# Industrial EAV Database Architecture for Rotogravure Print
+# Industrial EAV Database Architecture for Rotogravure Printing
 
 ## Project Objective
 This project revolves around a dataset specifically collected to track and analyze the **"banding" defect** in rotogravure printing, where production runs are ultimately classified as either **`band`** or **`noband`**. 

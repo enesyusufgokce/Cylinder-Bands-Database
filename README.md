@@ -8,7 +8,6 @@ To effectively manage the highly variable industrial metrics that contribute to 
 Specifically, this database architecture is built to achieve:
 * **Dynamic Scalability:** Allowing new production parameters to be seamlessly integrated as simple row inserts, completely eliminating the need for disruptive schema changes.
 * **Optimized Data Integrity:** Enforcing strict relational rules and preventing the sparse, null-heavy columns that commonly plague traditional wide-table designs.
-* 
 
 ---
 

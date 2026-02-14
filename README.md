@@ -1,11 +1,14 @@
 # Industrial EAV Database Architecture for Rotogravure Print
 
 ## Project Objective
-Industrial print production is a dynamic process where new sensors, chemical components, and measurement parameters are frequently introduced. Traditional database schemas handle this variability poorly, requiring constant structural modifications like adding new columns.
+This project revolves around a dataset specifically collected to track and analyze the **"banding" defect** in rotogravure printing, where production runs are ultimately classified as either **`band`** or **`noband`**. 
 
-This project aims to build a flexible and normalized EAV database architecture designed to achieve:
-* **Dynamic Scalability:** Allowing new production metrics to be seamlessly integrated as simple row inserts rather than disruptive schema changes (`ALTER TABLE`).
-* **Data Integrity:** Maintaining strict relational rules and eliminating the sparse, null-heavy columns that are common in traditional wide tables.
+To effectively manage the highly variable industrial metrics that contribute to this defect (e.g., fluctuating chemical ratios, machine settings, and sensor data), the core engineering objective is to transform unstructured production logs into a highly flexible, future-proof **Entity-Attribute-Value (EAV)** relational database.
+
+Specifically, this database architecture is built to achieve:
+* **Dynamic Scalability:** Allowing new production parameters to be seamlessly integrated as simple row inserts, completely eliminating the need for disruptive schema changes.
+* **Optimized Data Integrity:** Enforcing strict relational rules and preventing the sparse, null-heavy columns that commonly plague traditional wide-table designs.
+* 
 
 ---
 
